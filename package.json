@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "materialize-css": "^1.0.0-rc.2",
+    "popmotion": "^8.6.10",
+    "popmotion-react": "^2.1.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
+    "react-materialize": "^3.3.0",
+    "react-pose": "^4.0.8",
     "react-scripts": "3.0.0"
   },
   "scripts": {
@@ -27,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-image-zoomer": "^1.0.0"
   }
 }
