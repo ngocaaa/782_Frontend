@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import imgJSON from '../imageList.json';
+import JSON from '../imageList.json';
 import { Container, Side, LeftBox, RightTopBox, RightBottomBox } from "./custom";
 
 class Story extends Component {
@@ -9,11 +9,11 @@ class Story extends Component {
         return (
             <Container>
                 <Side>
-                    <LeftBox src={imgJSON.left.palm.src} />
+                    <LeftBox src={JSON.left.palm.src} />
                 </Side>
                 <Side>
-                    <RightTopBox src={imgJSON.right.top.tiger.src} />
-                    <RightBottomBox src={imgJSON.right.bottom.plant1.src} />
+                    <RightTopBox src={JSON.right.top.tiger.src} />
+                    <RightBottomBox src={JSON.right.bottom.plant1.src} />
                 </Side>
             </Container>
         );
