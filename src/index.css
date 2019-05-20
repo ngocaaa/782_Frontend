@@ -55,9 +55,8 @@ body {
   padding-bottom: 0 !important;
 }
 
-.col {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
+.row .col.m6.l6 {
+  padding: 0 !important;
 }
 
 code {

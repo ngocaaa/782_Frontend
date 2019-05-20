@@ -27,13 +27,11 @@ class Story extends Component {
 
         return (
             <div className="row">
-                <div id="app1" class="col s12 m6 l6">
-                </div>
+                <div id="app1" class="col s12 m6 l6"></div>
+
                 <div className="row">
-                    <div id="app2" className="row">
-                    </div>
-                    <div id="app3" className="row">
-                    </div>
+                    <div id="app2" className="row"></div>
+                    <div id="app3" className="row"></div>
                 </div>
             </div>
         );
@@ -41,14 +39,19 @@ class Story extends Component {
 
         // return (
         //     <div className="row">
-        //         <div id="app1" class="col s12 m6 l6">
-        //         </div>
+        //         <div id="app1" class="col s12 m6 l6"></div>
         //         <div class="col s12 m6 l6">
-        //             <div id="app2" className="row">
-        //             </div>
-        //             <div id="app3" className="row">
-        //             </div>
+        //             <div id="app2" className="row"></div>
+        //             <div id="app3" className="row"></div>
         //         </div>
+        //     </div>
+        // );
+
+        // return (
+        //     <div className="con">
+        //         <div id="app1"></div>
+        //         <div id="app2"></div>
+        //         <div id="app3"></div>
         //     </div>
         // );
     }
