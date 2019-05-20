@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import JSON from '../imageList.json';
+import imageList from '../imageList.json';
 
 import 'materialize-css/dist/css/materialize.min.css'
 
@@ -23,7 +23,6 @@ class Story extends Component {
         //         </div>
         //     </div>
         // );
-
 
         return (
             <div className="row">
