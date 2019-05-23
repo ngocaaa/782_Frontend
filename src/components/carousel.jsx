@@ -7,8 +7,8 @@ class Carousel extends Component {
 
     // Initialize Materialise carousel
     componentDidMount() {
-        var element = document.querySelector('.carousel');
-        var ins = M.Carousel.init(element, {
+        var elem = document.querySelector('.carousel');
+        var ins = M.Carousel.init(elem, {
             duration: 200,
             fullWidth: true,
             indicators: true,
