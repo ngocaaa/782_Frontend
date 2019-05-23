@@ -91,11 +91,11 @@ code {
   background-size : cover;
 } */
 
-.left-column img {
+/* .left-column img {
   max-width: auto;
   max-height: 100%;
   background-size: contain;
-}
+} */
 
 /* .left-column > img {
   background-size: contain; 
@@ -116,11 +116,11 @@ code {
 } */
 
 
-.right-column img {
+/* .right-column img {
   background-size: cover;
   max-width: auto;
   max-height: 100%;
-}
+} */
 
 /* .right-column-top > img {
   background-size: contain; 
@@ -137,7 +137,7 @@ code {
 
 /* ------------------- Info 1 ------------------- */
 
-#info-1 {
+/* #info-1 {
   min-height: 150px;
   position: relative;
   padding-top: 50px;
@@ -165,12 +165,12 @@ code {
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
-}
+} */
 
 
 /* ------------------- Info 2 ------------------- */
-
+/* 
 #info-2 {
   padding-top: 50px;
-}
+} */
 

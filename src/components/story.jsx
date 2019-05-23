@@ -4,7 +4,6 @@ import { Container, Side, LeftBox, RightTopBox, RightBottomBox } from "./custom"
 
 class Story extends Component {
 
-
     render() {
         return (
             <Container>
