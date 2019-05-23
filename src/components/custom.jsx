@@ -9,7 +9,7 @@ export const Side = styled.div`
     height: 100vh;
 `;
 
-export const LeftBox = styled.div`
+export const LeftContainer = styled.div`
     width: 100%;
     height: 100%;
     background-image: url(${({ src }) => src});
@@ -17,7 +17,7 @@ export const LeftBox = styled.div`
     background-position: center;
 `;
 
-export const RightTopBox = styled.div`
+export const RightTopContainer = styled.div`
     width: 100%;
     height: 50%;
     background-image: url(${({ src }) => src});
@@ -25,7 +25,7 @@ export const RightTopBox = styled.div`
     background-position: center;
 `;
 
-export const RightBottomBox = styled.div`
+export const RightBottomContainer = styled.div`
     width: 100%;
     height: 50%;
     background-image: url(${({ src }) => src});
